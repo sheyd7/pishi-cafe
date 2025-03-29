@@ -1,0 +1,101 @@
+/* General styles */
+body {
+    background-image: url("cat paws.png");
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+  }
+  
+  /* Menu container */
+  .menu {
+    width: 80%;
+    background-color: #ffcce0; /* Light pink background */
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid #ff66a3;
+    text-align: center;
+  }
+  
+  /* Text styles */
+  h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #ff66a3;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: #d1477d;
+  }
+  
+  .established {
+    font-style: italic;
+    color: #b3395d;
+  }
+  
+  /* Separator line */
+  hr {
+    height: 2px;
+    background-color: #ff66a3;
+    border-color: #ff66a3;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  /* Menu items */
+  .item p {
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 70%;
+    font-weight: bold;
+    color: #b3395d;
+  }
+  
+  .price {
+    text-align: right;
+    width: 30%;
+    color: #d1477d;
+  }
+  
+  /* Hover effect */
+  .item {
+    padding: 5px;
+    transition: transform 0.2s ease-in-out, background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer; /* This makes the hand (pointer) appear */
+}
+
+.item:hover {
+    transform: scale(1.05);
+    background-color: #ff99c8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+  
+  /* Footer */
+  footer {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    color: #ff66a3;
+  }
+  
